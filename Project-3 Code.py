@@ -18,7 +18,7 @@ for month in Monthdict.keys():
             Monthdict[month] += 1
 
 print("The total number of request made in the time period represented by the log is %d" %(TotalNumber))
-
-
+print("\n")
+print("The following are the number of requests made in each month")
 for key, value in Monthdict.items():
     print(key, value)
